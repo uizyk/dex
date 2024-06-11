@@ -108,8 +108,11 @@ function Swap() {
             <DownOutlined />
           </div>
         </div>
+      <div className="swapButton" disabled={!tokenOneAmount}>
+        Swap
       </div>
-    </>
+    </div>
+  </>
   )
 }
 
